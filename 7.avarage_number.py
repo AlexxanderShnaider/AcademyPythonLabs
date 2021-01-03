@@ -1,0 +1,9 @@
+sum = 0
+count = 0
+number = int(input("Введіть числа: \n"))
+while number != 0:
+    sum += number
+    count += 1
+    number = int(input())
+result = sum / count
+print(f"Середнє значення = {result}")
